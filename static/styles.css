@@ -1,0 +1,118 @@
+.square.x {
+	background-image: url('x.png');
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.square.o {
+	background-image: url('o.png');
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+body {
+	background-color: #f5f5f5;
+	}
+h1 {
+text-align: center;
+		}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 20px;
+		}
+.square {
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	background-color: #fff;
+	border: 1px solid #000;
+	font-size: 60px;
+	text-align: center;
+	line-height: 100px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+		}
+.square:hover {
+		background-color: #eee;
+}
+.square.disabled {
+	cursor: not-allowed;
+	background-color: #ccc;
+	}
+#square1{
+position:relative;
+top: 360px;
+left:340px;
+}
+#square2{
+position: relative;
+top:360px;
+left:345px;
+}
+#square3{
+position: relative;
+top:360px;
+left:345px;
+}
+#square4{
+position: relative;
+top:250px;
+left:1px;
+}
+#square5{
+position: relative;
+top: 250px;
+left:5px;
+}
+#square6{
+position: relative;
+top: 250px;
+left:5px;
+}
+#square7{
+position: relative;
+top: 140px;
+right:225px;
+}
+#square8{
+position: relative;
+top: 140px;
+right:222px;
+}
+#square9{
+position: relative;
+top: 140px;
+right:564px;
+}
+.vl1 {
+  position: relative;
+  left: 117px;
+  border-left: 6px solid black;
+  height: 400px;
+  top: 100px;
+}
+.vl2 {
+  position: relative;
+  right: 110px;
+  border-left: 6px solid black;
+  height: 400px;
+  top: 100px;
+}
+.hl1{
+position:absolute;
+border-top: 6px solid black;
+height: 400px;
+width: 400px;
+bottom:-13px;
+}
+.hl2{
+position:absolute;
+border-top: 6px solid black;
+height: 400px;
+width: 400px;
+bottom:-123px;
+}
